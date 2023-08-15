@@ -10,4 +10,8 @@ export default defineNuxtConfig({
             prepr: './apollo/prepr.ts',
         },
     },
+
+    build: {
+        transpile: ["tslib"],
+    },
 })
